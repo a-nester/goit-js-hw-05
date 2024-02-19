@@ -18,9 +18,9 @@
 const sortByDescendingFriendCount = users =>
     users
     .toSorted((firstFriend, secondFriend) => 
-    secondFriend.friends.length - firstFriend.friends.length);
+    secondFriend.friends.length - firstFriend.friends.length)
     // Щоб повернути масив імен користувачів:
-    //.map(elem => elem.name);
+    // .map(elem => elem.name);
 
 console.log(
   sortByDescendingFriendCount([
